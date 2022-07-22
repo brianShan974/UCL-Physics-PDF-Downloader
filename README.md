@@ -7,4 +7,10 @@ In order to run this script, `beautifulsoup4`, `lxml` and `requests` have to be 
 ```
 pip install beautifulsoup4 lxml requests
 ```
-After that, just run `main.py` and follow the prompts. The files will then start downloading.
+After that, just put all files in the same folder as `main.py`, run
+```
+python main.py
+```
+and follow the prompts. The files will then start downloading.
+
+On macOS, you may need to substitute `pip` and `python` in the commands with `pip3` and `python3`.
