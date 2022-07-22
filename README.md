@@ -7,4 +7,4 @@ In order to run this script, `beautifulsoup4`, `lxml` and `requests` have to be 
 ```
 pip install beautifulsoup4 lxml requests
 ```
-After that, just run `main.py` and follow the prompts. The files will just be downloaded.
+After that, just run `main.py` and follow the prompts. The files will then start downloading.
