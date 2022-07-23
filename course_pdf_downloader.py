@@ -2,6 +2,7 @@ import os
 
 from connector import Connector
 from course_link_finder import CourseLinkFinder
+from course_page_processor import CoursePageProcessor
 
 
 class CoursePDFDownloader:
@@ -75,4 +76,4 @@ class CoursePDFDownloader:
         if choice == len(course_list):
             self.download_all_courses()
         else:
-            self.download_by_course_id(course_list[i])
+            self.download_by_course_id(course_list[choice])
