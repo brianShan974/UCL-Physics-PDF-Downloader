@@ -19,7 +19,7 @@ class Connector:
             "logintoken": login_token
         }
         self.session.post(
-            login_url,
+            self.login_url,
             data=values
         )
         self.post_login_soup = BeautifulSoup(
