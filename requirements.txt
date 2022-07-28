@@ -1,0 +1,4 @@
+getpass
+beautifulsoup4
+lxml
+requests
