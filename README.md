@@ -1,3 +1,6 @@
+# Important
+Since the login mechanism of UCL moodle has changed, this script won't work anymore.
+
 # UCL-Physics-PDF-Downloader
 A simple python script to download all pdfs in UCL physics courses on moodle. 
 
